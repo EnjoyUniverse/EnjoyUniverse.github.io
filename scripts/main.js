@@ -23,7 +23,7 @@ function setUserName() {
     localStorage.setItem('name', myName);
     myHeading.innerHTML = 'Mozilla 酷毙了，' + myName;
   }
-}
+};
 
 // 初始化代码：在页面初次读取时进行构造工作：
 if(!localStorage.getItem('name')) {
