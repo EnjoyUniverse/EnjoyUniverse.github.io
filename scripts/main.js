@@ -7,6 +7,7 @@ myImage.onclick = function() {
     myImage.setAttribute ('alt','Firefox 备用标志：一只蜂窝里的白狐')；
   } else {
     myImage.setAttribute ('src','images/firefox-icon.png');
+    myImage.setAttribute ('alt','Firefox 标志：一只绕地球的火狐')；
   }
 };
 
