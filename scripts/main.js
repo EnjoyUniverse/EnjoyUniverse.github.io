@@ -4,10 +4,10 @@ myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
   if(mySrc === 'images/firefox-icon.png') {
     myImage.setAttribute('src','images/firefox2.png');
-    myImage.setAttribute('alt','Firefox 备用标志：一只盘窝在蜂窝里的白狐')；
+    myImage.setAttribute('alt','Firefox 备用标志：一只盘窝在蜂窝里的白狐');
   } else {
     myImage.setAttribute('src','images/firefox-icon.png');
-    myImage.setAttribute('alt','Firefox 标志：一只盘旋在地球上的火狐')；
+    myImage.setAttribute('alt','Firefox 标志：一只盘旋在地球上的火狐');
   }
 };
 
